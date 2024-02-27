@@ -1,0 +1,54 @@
+.list-element {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+.time {
+  color: #64748b;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 18px;
+  padding-top: 8px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 20px;
+}
+.image {
+  width: 35px;
+  height: 35px;
+  margin: 15px;
+}
+.domine-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.heading-title {
+  color: #475569;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 18px;
+}
+.paragraph {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  padding-top: 22px;
+  cursor: pointer;
+}
+.container-1{
+  display: flex;
+  justify-content: space-between
+}
